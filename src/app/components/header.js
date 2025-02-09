@@ -12,7 +12,7 @@ export default function Header() {
     }
 
     return (
-        <header className="flex justify-between items-center px-[10%] h-[53px] fixed top-0 bg-white w-[100%] z-10 shadow-lg">
+        <header className="flex justify-between items-center px-[10%] h-[53px] fixed top-0 bg-white w-full z-10 shadow-lg">
             <a href='/'>
                 <Image
                     className=''
@@ -30,19 +30,13 @@ export default function Header() {
                     className="block md:hidden sm:hidden"
                     onClick={toggleMenu}
                 >
-                    {isMenu ? (
-                        <div className="hamburger z-40 block focus:outline-none">
-                            <span className="hamburger-top"></span>
-                            <span className="hamburger-middle"></span>
-                            <span className="hamburger-bottom"></span>
-                        </div>
-                    ) : (
-                        <div className="hamburger open z-40 block focus:outline-none">
-                            <span className="hamburger-top"></span>
-                            <span className="hamburger-middle"></span>
-                            <span className="hamburger-bottom"></span>
-                        </div>
-                    )}
+                    
+                    <div className={isMenu ? "hamburger z-40 block focus:outline-none" : "hamburger open z-40 block focus:outline-none"}
+                    >
+                        <span className="hamburger-top"></span>
+                        <span className="hamburger-middle"></span>
+                        <span className="hamburger-bottom"></span>
+                    </div>
                 </div>
             </nav>
             <NavBar isMenu={isMenu} />

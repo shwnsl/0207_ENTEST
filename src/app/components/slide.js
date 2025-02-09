@@ -11,7 +11,7 @@ import photoData from '../public/data.json'
 export default function Slide() {
     
     return (
-        <>
+        <section>
             <Swiper
                 modules={[Navigation, Autoplay, Pagination]}
                 loop={true}
@@ -36,9 +36,9 @@ export default function Slide() {
                                     fill
                                     className='object-cover'
                                 />
-                                <div className='h-[100%] absolute px-36 flex items-center'>
+                                <div className='w-full h-full absolute px-[10%] flex items-center'>
                                     <div>
-                                        <p className="text-5xl font-bold">
+                                        <p className="text-xl font-bold sm:text-3xl md:text-4xl lg:text-5xl">
                                             {photo.title?.split("<br/>").map((line, idx) => (
                                                 <span key={idx}>
                                                     {line}
@@ -46,7 +46,7 @@ export default function Slide() {
                                                 </span>
                                             ))}
                                         </p>
-                                        <p className="text-xl mt-14">
+                                        <p className="text-xs sm:text-2xl md:text-xl lg:text-2xl mt-14">
                                             {photo.description?.split("<br/>").map((line, idx) => (
                                                 <span key={idx}>
                                                     {line}
@@ -60,6 +60,6 @@ export default function Slide() {
                     ))
                 }
             </Swiper>
-        </>
+        </section>
     )
 }

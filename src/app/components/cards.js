@@ -4,7 +4,7 @@ import photoData from '../public/data.json'
 export default function Cards() {
     return (
         <ul className='w-[80%] grid gap-3 auto-rows-fr
-               grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4'>
+               grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 '>
             {
                 photoData.map((photo) => (
                     <li 
