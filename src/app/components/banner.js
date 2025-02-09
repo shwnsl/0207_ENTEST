@@ -59,7 +59,7 @@ export default function Banner() {
                     <Image 
                         src={Me} 
                         alt="my picture" 
-                        className="w-full h-full" 
+                        className="aspect-video" 
                         width={1329}
                         height={997}
                         quality={100}

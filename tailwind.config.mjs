@@ -1,4 +1,4 @@
-/** @type {import('tailwindcss').Config} */
+/* @type {import('tailwindcss').Config} */
 export default {
   content: [
     "./src/pages/**/*.{js,ts,jsx,tsx,mdx}",
@@ -11,6 +11,16 @@ export default {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
+      fontFamily: {
+        'PB' : ['PB'],
+        'PEB' : ['PEB'],
+        'PL' : ['PL'],
+        'PEL' : ['PEL'],
+        'PM' : ['PM'],
+        'PR' : ['PR'],
+        'PSB' : ['PSB'],
+        'PT' : ['PT'],
+      }
     },
   },
   plugins: [],

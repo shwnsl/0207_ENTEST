@@ -4,31 +4,27 @@
         "title" : "Lorem ipsum<br/>dolor sit amet,",
         "description" : "Lorem ipsum dolor sit amet, consectetur<br/>sed do eiusmod tempor incididunt ut<br/>labore et dolore magna aliqua.",
         "description2" : "Lorem ipsum dolor sit amet,<br/>consectetur adipiscing elit",
-        "description3" : "Lorem ipsum dolor sit amet.",
-        "url" : "https://image1.lottetour.com/static/trvtour/201910/1715/011ee82200cbf4f301c382e19f44b28e"
+        "description3" : "Lorem ipsum dolor sit amet."
     },
     {
         "id" : 2,
         "title" : "Lorem ipsum<br/>dolor sit amet,",
         "description" : "Lorem ipsum dolor sit amet, consectetur<br/>sed do eiusmod tempor incididunt ut<br/>labore et dolore magna aliqua.",
         "description2" : "Lorem ipsum dolor sit amet,<br/>consectetur adipiscing elit",
-        "description3" : "Lorem ipsum dolor sit amet.",
-        "url" : "https://smallstartour.com/wp-content/uploads/2017/11/201711_home_main_top_01-2000x1334.jpg"
+        "description3" : "Lorem ipsum dolor sit amet."
     },
     {
         "id" : 3,
         "title" : "Lorem ipsum<br/>dolor sit amet,",
         "description" : "Lorem ipsum dolor sit amet, consectetur<br/>sed do eiusmod tempor incididunt ut<br/>labore et dolore magna aliqua.",
         "description2" : "Lorem ipsum dolor sit amet,<br/>consectetur adipiscing elit",
-        "description3" : "Lorem ipsum dolor sit amet.",
-        "url" : "https://www.kayak.co.kr/news/wp-content/uploads/sites/49/2017/11/171025_BLOG_APAC_DEST_SANTORINI2_HERO_eyeem_80673890_1200X550.jpg"
+        "description3" : "Lorem ipsum dolor sit amet."
     },
     {
         "id" : 4,
         "title" : "Lorem ipsum<br/>dolor sit amet,",
         "description" : "Lorem ipsum dolor sit amet, consectetur<br/>sed do eiusmod tempor incididunt ut<br/>labore et dolore magna aliqua.",
         "description2" : "Lorem ipsum dolor sit amet,<br/>consectetur adipiscing elit",
-        "description3" : "Lorem ipsum dolor sit amet.",
-        "url" : "https://dimg.donga.com/wps/NEWS/IMAGE/2019/01/02/93531867.2.jpg"
+        "description3" : "Lorem ipsum dolor sit amet."
     }
 ]

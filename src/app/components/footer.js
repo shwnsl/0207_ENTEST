@@ -13,7 +13,7 @@ export default function Footer() {
                         src={Logo2} 
                     />
                 </a>
-                <p className="text-white text-xs lg:mt-6 md:text-xl">Copyrights 2024. 테스트 All Rights Reserved</p>
+                <p className="font-['PT'] text-white text-xs lg:mt-6 md:text-xl">Copyrights 2024. 테스트 All Rights Reserved</p>
             </div>
         </footer>
     )

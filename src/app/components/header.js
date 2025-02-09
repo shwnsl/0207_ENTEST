@@ -12,7 +12,7 @@ export default function Header() {
     }
 
     return (
-        <header className="flex justify-between items-center px-[10%] h-[53px] fixed top-0 bg-white w-full z-10 shadow-lg">
+        <header className="flex justify-between items-center px-[10%] h-[53px] fixed top-0 bg-white w-full z-10 shadow-lg font-['PB']">
             <a href='/'>
                 <Image
                     className=''

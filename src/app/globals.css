@@ -2,10 +2,44 @@
 @tailwind components;
 @tailwind utilities;
 
-a {
-  font-family: sandoll-gothicneo1, sans-serif;
-  font-style: normal;
-  font-weight: 100;
+@font-face {
+  font-family: 'PB';
+  src: url('../app/fonts/Pretendard-Bold.woff');
+}
+
+@font-face {
+  font-family: 'PEB';
+  src: url('../app/fonts/Pretendard-ExtraBold.woff');
+}
+
+@font-face {
+  font-family: 'PEL';
+  src: url('../app/fonts/Pretendard-ExtraLight.woff');
+}
+
+@font-face {
+  font-family: 'PL';
+  src: url('../app/fonts/Pretendard-Light.woff');
+}
+
+@font-face {
+  font-family: 'PM';
+  src: url('../app/fonts/Pretendard-Medium.woff');
+}
+
+@font-face {
+  font-family: 'PR';
+  src: url('../app/fonts/Pretendard-Regular.woff');
+}
+
+@font-face {
+  font-family: 'PSB';
+  src: url('../app/fonts/Pretendard-SemiBold.woff');
+}
+
+@font-face {
+  font-family: 'PT';
+  src: url('../app/fonts/Pretendard-Thin.woff');
 }
 
 .swiper-button-prev,
